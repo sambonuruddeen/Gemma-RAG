@@ -60,7 +60,7 @@ pip install -r requirements.txt
 ### Download PDF
 Assuming you have a PDF document named "example.pdf" that you want to download into the "/home/ubuntu/pdfs" directory, you can use the wget command in the Linux terminal.
 ```bash
-wget wget -O /home/ubuntu/pdfs/example.pdf https://example.com/path/to/example.pdf
+wget -O /home/ubuntu/pdfs/example.pdf https://example.com/path/to/example.pdf
 ```
 This command will download the PDF file from the specified URL and save it as "example.pdf" in the "/home/ubuntu/pdfs" directory.
 
