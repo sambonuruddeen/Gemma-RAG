@@ -1,7 +1,7 @@
 # RAG-based QA system from PDF documents using Gemma
 
 ## Project Setup Guide
-This guide is written and tested on a linux (Ubuntu) machine
+This guide is written and tested on a linux (Ubuntu) virtual machine.
 
 **Prerequisites:** Make sure you have Python installed on your system. You can download Python from [python.org](https://www.python.org/downloads/). 
 
