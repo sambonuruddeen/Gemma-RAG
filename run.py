@@ -37,7 +37,7 @@ embed_model = FastEmbedEmbedding(model_name="BAAI/bge-small-en-v1.5")
 
 Settings.embed_model = embed_model
 
-Settings.chunk_size = 256
+Settings.chunk_size = 128
 
 
 
@@ -54,9 +54,9 @@ HfFolder.save_token(os.getenv('HF_KEY'))
 import torch
 llm = HuggingFaceLLM(
 
-    context_window=8192,
+    context_window=4096,
 
-    max_new_tokens=256,
+    max_new_tokens=128,
 
     generate_kwargs={"temperature": 0.7, "do_sample": False},
 
@@ -79,7 +79,7 @@ llm = HuggingFaceLLM(
 
 
 Settings.llm = llm
-Settings.chunk_size = 256
+Settings.chunk_size = 128
 
 index = VectorStoreIndex.from_documents(documents)
 
