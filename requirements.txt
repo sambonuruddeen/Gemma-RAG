@@ -13,8 +13,8 @@ einops
 
 accelerate
 
-llama-index-llms-huggingface
+llama-index-llms-huggingface --no-cache-dir
 
-llama-index-embeddings-fastembed
+llama-index-embeddings-fastembed --no-cache-dir
 
 fastembed
