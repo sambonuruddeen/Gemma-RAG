@@ -37,7 +37,7 @@ embed_model = FastEmbedEmbedding(model_name="BAAI/bge-small-en-v1.5")
 
 Settings.embed_model = embed_model
 
-Settings.chunk_size = 512
+Settings.chunk_size = 256
 
 
 
@@ -79,7 +79,7 @@ llm = HuggingFaceLLM(
 
 
 Settings.llm = llm
-Settings.chunk_size = 512
+Settings.chunk_size = 256
 
 index = VectorStoreIndex.from_documents(documents)
 
