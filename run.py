@@ -25,7 +25,7 @@ from llama_index.core import Settings
 
 
 
-documents = SimpleDirectoryReader("/home/ubuntu/pdfs").load_data()
+documents = SimpleDirectoryReader("/home/ubuntu/Gemma-RAG/pdfs").load_data()
 
 
 

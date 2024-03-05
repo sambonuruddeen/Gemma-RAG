@@ -60,12 +60,18 @@ Now that you have your virtual environment set up, install the project dependenc
 ```bash
 pip install -r requirements.txt
 ```
+
+- If encountering out-of-memory issues, consider utilizing the following command for resolution.
+
+```bash
+pip install -r requirements.txt --no-cache-dir
+```
 ### Download PDF
 Assuming you have a PDF document named "example.pdf" that you want to download into the "/home/ubuntu/pdfs" directory, you can use the wget command in the Linux terminal.
 ```bash
 wget -O /home/ubuntu/pdfs/example.pdf https://example.com/path/to/example.pdf
 ```
-This command will download the PDF file from the specified URL and save it as "example.pdf" in the "/home/ubuntu/pdfs" directory.
+This command will download the PDF file from the specified URL and save it as "example.pdf" in the "/home/ubuntu/Gemma-RAG/pdfs" directory.
 
 
 ### Run project
