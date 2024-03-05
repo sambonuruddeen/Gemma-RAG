@@ -1,32 +1,20 @@
-# requirements.txt
 
+transformers==4.38.1 
 
-# Transformers library for natural language processing tasks using pre-trained models.
-pip install -U "transformers==4.38.1" --upgrade
+pypdf
 
-# Library for extracting text content from PDF files.
-pip install -q pypdf
+python-dotenv
 
-# Library for extracting text content from PDF files.
-pip install -q python-dotenv
+llama-index==0.10.12
 
-# Llama Index library for efficient and scalable nearest neighbor search.
-pip install  llama-index==0.10.12
+gradio
 
-# Gradio for creating UIs to interact with machine learning models.
-pip install -q gradio
+einops
 
-# Einops for flexible and easy reshaping of NumPy arrays.
-pip install einops
+accelerate
 
-# Accelerate for easy-to-use data loading and distributed training in PyTorch.
-pip install accelerate
+llama-index-llms-huggingface --no-cache-dir
 
-# Llama Index integration with Hugging Face's transformers library.
-pip install llama-index-llms-huggingface --no-cache-dir
+llama-index-embeddings-fastembed
 
-# Llama Index integration with fastembed embeddings.
-pip install llama-index-embeddings-fastembed
-
-# Fastembed for fast and efficient embedding computations.
-pip install fastembed
+fastembed

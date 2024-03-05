@@ -10,35 +10,38 @@ This guide is written and tested on a linux (Ubuntu) virtual machine.
 ### Step 1: Install `pip`
 
 If you don't have `pip` installed, follow these steps:
-
+- On Unix/macOS
 ```bash
-# On Unix/macOS
 sudo apt-get install python3-pip
-
-# On Windows
+```
+- On Windows
+```bash
 python -m ensurepip --default-pip
 ```
 
 ### Step 2: Install `venv`
-Now, let's install venv to create a virtual environment for your project:
-
+Now, let's install venv and create a virtual environment for your project:
+- Install venv
 ```bash
-# On Unix/macOS/Windows
-python -m venv venv
+sudo apt install python3.10-venv
+```
+
+#### Create virtual environment named `venv`
+- On Unix/macOS/Windows
+```bash
+python3 -m venv venv
 ```
 
 ### Step 3: 
 Activate the virtual environment based on your operating system:
 
-
+- On Unix/macOS:
 ```bash
-# On Unix/macOS:
 source venv/bin/activate
 ```
 
-
+- On Windows:
 ```bash
-# On Windows:
 venv\Scripts\activate
 ```
 You'll see the virtual environment name appear in your command prompt, indicating that it's now active.
