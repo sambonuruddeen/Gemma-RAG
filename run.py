@@ -64,9 +64,9 @@ llm = HuggingFaceLLM(
 
     query_wrapper_prompt=query_wrapper_prompt,
 
-    tokenizer_name="google/gemma-7b-it",
+    tokenizer_name="google/gemma-2b-it",
 
-    model_name="google/gemma-7b-it",
+    model_name="google/gemma-2b-it",
 
     device_map="auto",
 
